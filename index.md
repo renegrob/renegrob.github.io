@@ -1,5 +1,4 @@
 ---
-title: "Posts by Category"
-layout: categories
+layout: home
 author_profile: true
 ---

@@ -3,5 +3,10 @@ title: René Grob
 email: rene.grob76@gmail.com
 github_username: renegrob
 timezone: Europe/Zurich
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
 exclude:
 - readme.md

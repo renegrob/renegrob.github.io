@@ -5,8 +5,14 @@ github_username: renegrob
 timezone: Europe/Zurich
 plugins:
   - jekyll-relative-links
+  - jekyll-feed
+  - jekyll-sitemap  
+permalink: :title
 relative_links:
   enabled: true
   collections: true
 exclude:
 - readme.md
+show_excerpts: true
+# A list of the pages to display in the navigation bar
+header_pages:

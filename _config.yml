@@ -2,4 +2,6 @@ theme: jekyll-theme-midnight
 title: René Grob
 email: rene.grob76@gmail.com
 github_username: renegrob
-permalink: /:title/
+timezone: Europe/Zurich
+exclude:
+- readme.md

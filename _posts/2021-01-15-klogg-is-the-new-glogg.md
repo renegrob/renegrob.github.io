@@ -6,4 +6,4 @@ categories: logging
 ---
 
 I used glogg for years but noticed that the last release was in 2017 and noticed that there is a fork called klogg which has many improvements:
-[https://klogg.filimonov.dev/]
+[klogg](https://klogg.filimonov.dev/)

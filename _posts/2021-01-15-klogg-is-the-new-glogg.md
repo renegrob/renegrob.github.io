@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "klogg is the new glogg"

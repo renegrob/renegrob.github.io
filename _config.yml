@@ -1,4 +1,5 @@
 theme: jekyll-theme-midnight
-title: René Grob's Blog
+title: René Grob
 email: rene.grob76@gmail.com
 github_username: renegrob
+permalink: /:title/

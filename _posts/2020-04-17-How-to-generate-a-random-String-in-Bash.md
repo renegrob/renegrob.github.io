@@ -4,6 +4,7 @@ title:  "How to create a random String with Bash"
 date:   2020-04-18 15:00:00 +0100
 categories: bash
 ---
+
 With this approach you can create nearly every random text or number.
 
 ```shell

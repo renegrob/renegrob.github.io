@@ -21,7 +21,7 @@ time, mark, audio, video {
 	padding: 0;
 	margin: 0;
 	font: inherit;
-	font-size: 100%;
+	font-size: 1.1rem;
 	vertical-align: baseline;
 	border: 0;
 }
@@ -170,8 +170,8 @@ a.button span {
 
 code, pre {
   margin-bottom: 30px;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
-  font-size: 14px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
   color: #222;
 }
 
@@ -268,7 +268,8 @@ h4 {
 }
 
 h5 {
-  font-size: 1em;
+  font-weight: 600;
+  font-size: 1.5rem;
   color: #303030;
 }
 

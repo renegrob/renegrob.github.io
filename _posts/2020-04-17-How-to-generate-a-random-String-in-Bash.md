@@ -1,15 +1,14 @@
 ---
+title: 'How to create a random String with Bash'
 layout: post
-title:  "How to create a random String with Bash"
-date:   2020-04-18 15:00:00 +0100
-categories: bash
+tags: []
+category: bash
 ---
-
 With this approach you can create nearly every random text or number.
 
 ```shell
 tr -dc '0-9A-Za-z' < /dev/random | head -c10
-``` 
+```
 
 Explanation:
 

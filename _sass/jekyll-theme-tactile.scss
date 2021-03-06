@@ -93,7 +93,8 @@ header h2 {
 }
 
 .inner {
-  width: 620px;
+  min-width: 800px;
+  max-width: 120rem;
   margin: 0 auto;
 }
 

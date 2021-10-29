@@ -13,6 +13,6 @@ relative_links:
   collections: true
 exclude:
 - readme.md
-show_excerpts: true
+show_excerpts: false
 # A list of the pages to display in the navigation bar
 header_pages:

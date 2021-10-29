@@ -21,7 +21,7 @@ time, mark, audio, video {
 	padding: 0;
 	margin: 0;
 	font: inherit;
-	font-size: 1.1rem;
+	font-size: 100%;
 	vertical-align: baseline;
 	border: 0;
 }
@@ -89,13 +89,11 @@ header h2 {
 
 #container {
   min-height: 595px;
-  margin: 0 4rem;
   background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
 }
 
 .inner {
-  min-width: 800px;
-  max-width: 120rem;
+  width: 620px;
   margin: 0 auto;
 }
 
@@ -177,8 +175,8 @@ a.button span {
 
 code, pre {
   margin-bottom: 30px;
-  font-family: "Roboto Mono", monospace;
-  font-size: 1rem;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: 14px;
   color: #222;
 }
 
@@ -211,8 +209,11 @@ ul, ol, dl {
 
 hr {
   height: 1px;
+  padding-bottom: 1em;
   margin-top: 1em;
   line-height: 1px;
+  background: transparent url('../images/hr.png') 50% 0 no-repeat;
+  border: none;
 }
 
 strong {
@@ -272,8 +273,7 @@ h4 {
 }
 
 h5 {
-  font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1em;
   color: #303030;
 }
 
@@ -304,6 +304,8 @@ blockquote {
 
 ul li {
   list-style-position: inside;
+  list-style: disc;
+  padding-left: 20px;
 }
 
 ol li {
@@ -322,6 +324,7 @@ footer {
   margin-top: 40px;
   font-size: 13px;
   color: #aaa;
+  background: transparent url('../images/hr.png') 0 0 no-repeat;
 }
 
 footer a {

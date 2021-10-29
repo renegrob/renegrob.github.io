@@ -6,7 +6,7 @@ category: bash
 ---
 With this approach you can create nearly every random text or number.
 
-```shell
+```
 tr -dc '0-9A-Za-z' < /dev/random | head -c10
 ```
 

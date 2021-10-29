@@ -23,4 +23,5 @@ while [[ $(realpath $relative_path) != '/' ]]; do
   relative_path="${relative_path}/.."
 done
 ```
+
 This will allow you to use `gw` instead of `./gradlew` in any subdirectory. `gw` will search up until it finds `gradlew` or a gradle settings file.

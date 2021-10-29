@@ -7,7 +7,7 @@ category: bash
 
 Save this script as "gw", make it executable and put it to the search path: 
 
-```shell
+```
 #!/bin/bash
 relative_path='.'
 while [[ $(realpath $relative_path) != '/' ]]; do

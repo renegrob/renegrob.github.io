@@ -2,4 +2,4 @@
 
 This repository hosts my posts
 
-Base theme: https://github.com/pages-themes/tactile/
+Information about the theme: [beautifulhugo](./themes/beautifulhugo/README.md)

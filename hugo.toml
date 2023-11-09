@@ -1,0 +1,4 @@
+baseURL = 'https://renegrob.github.io/'
+languageCode = 'en-us'
+title = "René Grob's Blog"
+theme = 'beautifulhugo'

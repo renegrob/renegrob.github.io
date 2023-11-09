@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>René Grob&#39;s Blog</title>
+    <link>https://renegrob.github.io/</link>
+    <description>Recent content on René Grob&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 May 2021 20:07:57 +0100</lastBuildDate>
+    <atom:link href="https://renegrob.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use echo $! to wait for a background process to finish</title>
+      <link>https://renegrob.github.io/posts/bash-wait-for-process/</link>
+      <pubDate>Wed, 12 May 2021 20:07:57 +0100</pubDate>
+      <guid>https://renegrob.github.io/posts/bash-wait-for-process/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;echo $!&lt;/code&gt; command returns the process ID of the most recently started background process. This can be very useful when you want to wait for a process to finish before continuing with your script.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>klogg is the new glogg</title>
+      <link>https://renegrob.github.io/posts/klogg/</link>
+      <pubDate>Fri, 15 Jan 2021 20:04:19 +0100</pubDate>
+      <guid>https://renegrob.github.io/posts/klogg/</guid>
+      <description>I used glogg for years but noticed that the last release was in 2017 and noticed that there is a fork called klogg which has many improvements: klogg</description>
+    </item>
+    <item>
+      <title>How to create a random String with Bash</title>
+      <link>https://renegrob.github.io/posts/create-random-string-with-bash/</link>
+      <pubDate>Fri, 17 Apr 2020 19:52:26 +0100</pubDate>
+      <guid>https://renegrob.github.io/posts/create-random-string-with-bash/</guid>
+      <description>With this approach you can create nearly every random text or number.
+tr -dc &amp;#39;0-9A-Za-z&amp;#39; &amp;lt; /dev/random | head -c10 Explanation: tr -dc deletes all characters except those specified in the argument. This means that we waste a lot of bytes, but for occasional manual use, this is usually acceptable.
+| head -c10 prints the first 10 characters of the output of the previous command.</description>
+    </item>
+  </channel>
+</rss>

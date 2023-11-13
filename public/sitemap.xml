@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://renegrob.github.io/posts/bash-wait-for-process/</loc>
-    <lastmod>2021-05-12T20:07:57+01:00</lastmod>
+    <loc>https://renegrob.github.io/posts/curl-show-headers/</loc>
+    <lastmod>2022-07-19T20:27:04+01:00</lastmod>
   </url><url>
     <loc>https://renegrob.github.io/posts/</loc>
-    <lastmod>2021-05-12T20:07:57+01:00</lastmod>
+    <lastmod>2022-07-19T20:27:04+01:00</lastmod>
   </url><url>
     <loc>https://renegrob.github.io/</loc>
+    <lastmod>2022-07-19T20:27:04+01:00</lastmod>
+  </url><url>
+    <loc>https://renegrob.github.io/posts/gradle-wrapper/</loc>
+    <lastmod>2021-10-29T20:24:48+01:00</lastmod>
+  </url><url>
+    <loc>https://renegrob.github.io/posts/bash-wait-for-process/</loc>
     <lastmod>2021-05-12T20:07:57+01:00</lastmod>
   </url><url>
     <loc>https://renegrob.github.io/posts/klogg/</loc>

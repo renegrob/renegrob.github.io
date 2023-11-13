@@ -10,11 +10,11 @@
  
 
 
-      <title>How to create a random String with Bash - </title>
+      <title>How to see HTTP headers and raw output during debugging with cURL - </title>
 
-  <meta name="description" content="With this approach you can create nearly every random text or number.
-tr -dc &#39;0-9A-Za-z&#39; &lt; /dev/random | head -c10 Explanation: tr -dc deletes all characters except those specified in the argument. This means that we waste a lot of bytes, but for occasional manual use, this is usually acceptable.
-| head -c10 prints the first 10 characters of the output of the previous command."><script type="application/ld+json">
+  <meta name="description" content="When debugging, it is often helpful to see the returned HTTP headers and the raw output of a curl request. This can be done using the following command:
+curl -X GET -is -o /dev/stdout https://myhost If you need information about the connection establishment and TLS handshake, you can add the -v flag to the command:
+curl -X GET -isv -o /dev/stdout https://myhost "><script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
@@ -49,8 +49,8 @@ tr -dc &#39;0-9A-Za-z&#39; &lt; /dev/random | head -c10 Explanation: tr -dc dele
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "https:\/\/renegrob.github.io\/posts\/create-random-string-with-bash\/",
-          "name": "How to create a random string with bash"
+          "@id": "https:\/\/renegrob.github.io\/posts\/curl-show-headers\/",
+          "name": "How to see HTTP headers and raw output during debugging with c URL"
         }
     }]
 }
@@ -61,15 +61,15 @@ tr -dc &#39;0-9A-Za-z&#39; &lt; /dev/random | head -c10 Explanation: tr -dc dele
   "author": {
     "name" : ""
   },
-  "headline": "How to create a random String with Bash",
-  "description" : "With this approach you can create nearly every random text or number.\ntr -dc \u0026#39;0-9A-Za-z\u0026#39; \u0026lt; \/dev\/random | head -c10 Explanation: tr -dc deletes all characters except those specified in the argument. This means that we waste a lot of bytes, but for occasional manual use, this is usually acceptable.\n| head -c10 prints the first 10 characters of the output of the previous command.",
+  "headline": "How to see HTTP headers and raw output during debugging with cURL",
+  "description" : "When debugging, it is often helpful to see the returned HTTP headers and the raw output of a curl request. This can be done using the following command:\ncurl -X GET -is -o \/dev\/stdout https:\/\/myhost If you need information about the connection establishment and TLS handshake, you can add the -v flag to the command:\ncurl -X GET -isv -o \/dev\/stdout https:\/\/myhost ",
   "inLanguage" : "en",
-  "wordCount":  65 ,
-  "datePublished" : "2020-04-17T19:52:26",
-  "dateModified" : "2020-04-17T19:52:26",
+  "wordCount":  62 ,
+  "datePublished" : "2022-07-19T20:27:04",
+  "dateModified" : "2022-07-19T20:27:04",
   "image" : "https:\/\/renegrob.github.io\/",
   "keywords" : [ "" ],
-  "mainEntityOfPage" : "https:\/\/renegrob.github.io\/posts\/create-random-string-with-bash\/",
+  "mainEntityOfPage" : "https:\/\/renegrob.github.io\/posts\/curl-show-headers\/",
   "publisher" : {
     "@type": "Organization",
     "name" : "https:\/\/renegrob.github.io\/",
@@ -83,17 +83,17 @@ tr -dc &#39;0-9A-Za-z&#39; &lt; /dev/random | head -c10 Explanation: tr -dc dele
 }
 </script>
 
-<meta property="og:title" content="How to create a random String with Bash" />
-<meta property="og:description" content="With this approach you can create nearly every random text or number.
-tr -dc &#39;0-9A-Za-z&#39; &lt; /dev/random | head -c10 Explanation: tr -dc deletes all characters except those specified in the argument. This means that we waste a lot of bytes, but for occasional manual use, this is usually acceptable.
-| head -c10 prints the first 10 characters of the output of the previous command.">
-<meta property="og:url" content="https://renegrob.github.io/posts/create-random-string-with-bash/" />
+<meta property="og:title" content="How to see HTTP headers and raw output during debugging with cURL" />
+<meta property="og:description" content="When debugging, it is often helpful to see the returned HTTP headers and the raw output of a curl request. This can be done using the following command:
+curl -X GET -is -o /dev/stdout https://myhost If you need information about the connection establishment and TLS handshake, you can add the -v flag to the command:
+curl -X GET -isv -o /dev/stdout https://myhost ">
+<meta property="og:url" content="https://renegrob.github.io/posts/curl-show-headers/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="René Grob&#39;s Blog" />
 
-  <meta name="twitter:title" content="How to create a random String with Bash" />
-  <meta name="twitter:description" content="With this approach you can create nearly every random text or number.
-tr -dc &#39;0-9A-Za-z&#39; &lt; /dev/random | head -c10 Explanation: tr -dc deletes all characters except those specified in the …">
+  <meta name="twitter:title" content="How to see HTTP headers and raw output during debugging with cURL" />
+  <meta name="twitter:description" content="When debugging, it is often helpful to see the returned HTTP headers and the raw output of a curl request. This can be done using the following command:
+curl -X GET -is -o /dev/stdout https://myhost …">
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="generator" content="Hugo 0.120.4">
   <link rel="alternate" href="https://renegrob.github.io/index.xml" type="application/rss+xml" title="René Grob&#39;s Blog"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
@@ -202,7 +202,7 @@ tr -dc &#39;0-9A-Za-z&#39; &lt; /dev/random | head -c10 Explanation: tr -dc dele
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="posts-heading">
               
-                <h1>How to create a random String with Bash</h1>
+                <h1>How to see HTTP headers and raw output during debugging with cURL</h1>
               
               
                 <hr class="small">
@@ -223,12 +223,11 @@ tr -dc &#39;0-9A-Za-z&#39; &lt; /dev/random | head -c10 Explanation: tr -dc dele
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>With this approach you can create nearly every random text or number.</p>
-<pre tabindex="0"><code>tr -dc &#39;0-9A-Za-z&#39; &lt; /dev/random | head -c10
-</code></pre><h3 id="explanation">Explanation:</h3>
-<p><code>tr -dc</code> deletes all characters except those specified in the argument. This means that we waste a lot of bytes, but for occasional manual use, this is usually acceptable.<br>
-<code>| head -c10</code> prints the first 10 characters of the output of the previous command.</p>
-
+        <p>When debugging, it is often helpful to see the returned HTTP headers and the raw output of a curl request. This can be done using the following command:</p>
+<pre tabindex="0"><code>curl -X GET -is -o /dev/stdout https://myhost
+</code></pre><p>If you need information about the connection establishment and TLS handshake, you can add the -v flag to the command:</p>
+<pre tabindex="0"><code>curl -X GET -isv -o /dev/stdout https://myhost
+</code></pre>
 
         
 
@@ -240,10 +239,10 @@ tr -dc &#39;0-9A-Za-z&#39; &lt; /dev/random | head -c10 Explanation: tr -dc dele
       
         <ul class="pager blog-pager">
           
-          
-            <li class="next">
-              <a href="https://renegrob.github.io/posts/klogg/" data-toggle="tooltip" data-placement="top" title="klogg is the new glogg">Next Post &rarr;</a>
+            <li class="previous">
+              <a href="https://renegrob.github.io/posts/gradle-wrapper/" data-toggle="tooltip" data-placement="top" title="Call Gradle Wrapper from nested Directory">&larr; Previous Post</a>
             </li>
+          
           
         </ul>
       

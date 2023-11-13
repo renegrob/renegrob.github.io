@@ -171,6 +171,83 @@
           
           
             <article class="post-preview">
+    <a href="https://renegrob.github.io/posts/curl-show-headers/">
+        <h2 class="post-title">How to see HTTP headers and raw output during debugging with cURL</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on July 19, 2022
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <p>When debugging, it is often helpful to see the returned HTTP headers and the raw output of a curl request. This can be done using the following command:</p>
+<pre tabindex="0"><code>curl -X GET -is -o /dev/stdout https://myhost
+</code></pre><p>If you need information about the connection establishment and TLS handshake, you can add the -v flag to the command:</p>
+<pre tabindex="0"><code>curl -X GET -isv -o /dev/stdout https://myhost
+</code></pre>
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="https://renegrob.github.io/posts/gradle-wrapper/">
+        <h2 class="post-title">Call Gradle Wrapper from nested Directory</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on October 29, 2021
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <p>The following script will allow you to use <code>gw</code> instead of <code>./gradlew</code> in any subdirectory. <code>gw</code> will go up the directory hierarchy until it finds <code>gradlew</code> or a gradle settings file.</p>
+        <a href="https://renegrob.github.io/posts/gradle-wrapper/" class="post-read-more">[Read More]</a>
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
     <a href="https://renegrob.github.io/posts/bash-wait-for-process/">
         <h2 class="post-title">How to use echo $! to wait for a background process to finish</h2>
         
@@ -316,7 +393,7 @@
 
           &nbsp;&bull;&nbsp;&copy;
           
-            2021
+            2022
           
 
           

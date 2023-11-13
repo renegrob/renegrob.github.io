@@ -2,4 +2,4 @@
 
 This repository hosts my posts
 
-Information about the theme: [beautifulhugo](./themes/beautifulhugo/README.md)
+Information about the theme: [beautifulhugo](https://github.com/halogenica/beautifulhugo)
